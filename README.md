@@ -46,7 +46,7 @@ Users can paste the content of any email into the app, and the model will predic
    cd email-spam-classifier/python\ code
 
 
-2. Create a virtual environment:
+##2. Create a virtual environment:
 
    python3 -m venv .venv
 source .venv/bin/activate   # On Mac/Linux
@@ -55,11 +55,11 @@ source .venv/bin/activate   # On Mac/Linux
 
 
 
-3. Install dependencies:
+##3. Install dependencies:
 
    pip install -r requirements.txt
 
 
-4. Run the Streamlit app:
+##4. Run the Streamlit app:
 
    streamlit run app.py
